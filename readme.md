@@ -54,6 +54,8 @@ ___
 
 ### 7. Les relations entre les models des BDD
 
+J'aime bien la métaphore de la bibliothèque, pas vous ? On continue ! Certains livres stockés dans notre base de donnés, s'ils appartiennent bien à des disciplines différentes, peuvent avoir un lien qui justifie une forme de rapprochement. Un auteur peut avoir été cité dans un autre ouvrage avec une note de bas de page renvoyant à la citation exacte. Ou cet auteur peut avoir contribué à un ouvrage collectif piloté par un expert d'un autre champs. Ce serait dommage de ne pas faire un lien entre ces éléments, sans pour autant les assimiler : la bibliothèque est grande et riche, il faut rester rigoureux dans l'organisation ! Pour cela on utilise __Active Record__, qui va nous permettre d'expliciter simplement le lien entre les deux objets sans les confondre.
+
 ___
 
 ### 8. Les fonctions du CRUD
